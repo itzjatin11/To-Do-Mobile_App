@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/imgAIS"
+        android:layout_width="411dp"
+        android:layout_height="237dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="AIS Logo"
+        android:src="@drawable/ais" />
+
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Click the button below to see the location/direction of Auckland Institute of Studies."
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnOpenGoogleMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open in Google Maps" />
+</LinearLayout>

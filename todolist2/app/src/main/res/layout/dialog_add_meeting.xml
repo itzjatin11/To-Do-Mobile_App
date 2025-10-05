@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Meeting Title *"
+        android:inputType="textCapWords"
+        android:background="@android:drawable/edit_text"
+        android:paddingHorizontal="12dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="Meeting title (required)" />
+
+    <EditText
+        android:id="@+id/etPurpose"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Purpose"
+        android:inputType="textCapSentences"
+        android:background="@android:drawable/edit_text"
+        android:paddingHorizontal="12dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="Meeting purpose" />
+
+    <EditText
+        android:id="@+id/etAttendees"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Attendees (comma-separated)"
+        android:inputType="textPersonName"
+        android:background="@android:drawable/edit_text"
+        android:paddingHorizontal="12dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="Meeting attendees" />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Time (HH:mm, e.g., 14:30) *"
+        android:inputType="time"
+        android:background="@android:drawable/edit_text"
+        android:paddingHorizontal="12dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="Meeting time in 24-hour format (required)" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="About AIS"
+        android:icon="@android:drawable/ic_menu_info_details" />
+
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact Us"
+        android:icon="@android:drawable/ic_menu_call" />
+
+    <item
+        android:id="@+id/nav_ais_website"
+        android:title="Visit AIS Website"
+        android:icon="@android:drawable/ic_menu_compass" />
+
+    <item
+        android:id="@+id/nav_map"
+        android:title="Map"
+        android:icon="@android:drawable/ic_menu_mapmode" />
+
+    <!-- ✅ New Play Video Option -->
+    <item
+        android:id="@+id/nav_play_video"
+        android:title="Watch AIS Journey"
+        android:icon="@android:drawable/ic_media_play" />
+
+</menu>
